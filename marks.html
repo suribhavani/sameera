@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+
+<input type="number" placeholder="telugu marks" id="tm">
+
+<input type="number" placeholder="hindi marks" id="hm">
+
+<input type="number" placeholder="science marks" id="sm">
+
+<input type="number" placeholder= "maths marks" id="mm">
+
+<input type="number" placeholder=" english marks" id="em">
+
+<button onclick="result()">submit</button>
+
+
+
+    </form>
+
+    <script>
+
+    function result(){
+   
+    let telugu=document.getElementById('tm').value;
+    let teluguvalue=parseInt(telugu);
+
+    let hindi=document.getElementById('hm').value;
+    let hindivalue=parseInt(hindi);
+   
+    let science=document.getElementById('sm').value;
+    let sciencevalue=parseInt(science);
+
+    let maths=document.getElementById('mm').value;
+    let mathsvalue=parseInt(maths);
+
+    let english=document.getElementById('mm').value;
+    let englishvalue=parseInt(english);
+
+
+const marks=(teluguvalue >=35 && teluguvalue <=100) && (hindivalue >=35 && hindivalue <=100) && (sciencevalue >=35 && sciencevalue <=100)&&
+(mathsvalue >=35 && mathsvalue <=100)&& (englishvalue >=35 && englishvalue <=100);
+
+
+
+    
+alert(marks);
+
+let totalmarks=teluguvalue + hindivalue + sciencevalue + mathsvalue + englishvalue;
+
+alert(totalmarks);
+
+const fnlmarks=totalmarks>=175==totalmarks<=500;
+
+alert(fnlmarks);
+
+
+if(totalmarks >= 400 && totalmarks <= 500)
+{
+
+    alert("grade A"+ totalmarks);
+}
+
+ else if( totalmarks >= 300 && totalmarks <= 399)
+{
+  alert("grade B"+ totalmarks);
+
+}
+ else if( totalmarks >=200 && totalmarks <= 299)
+{
+  alert("grade c"+ totalmarks);
+}
+
+else{
+    alert("fail"+ totalmarks);
+}
+
+}
+
+ </script>
+
+
+
+</body>
+</html>

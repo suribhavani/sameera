@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loop1</title>
+
+
+    <style> 
+
+
+.main{
+    display: inline-flex;
+
+}
+        .child{
+
+          height: 200px;
+          width: 300px;
+          background-color: aqua;
+
+
+
+        }
+
+
+
+
+    </style>
+
+
+
+
+</head>
+<body>
+     <div id="main">
+          <div class="child">
+
+            <p id="para" ></p>
+
+
+
+
+     </div>
+     </div>
+
+  <script>
+
+
+     let mydata =document.getElementById('main').innerHTML;
+
+      for(a=0;a<=20;a++){
+
+           document.write(mydata + "<br/>");
+
+      }
+
+
+
+ </script>
+
+
+
+</body>
+</html>

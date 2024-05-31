@@ -1,0 +1,314 @@
+.menu{
+    background-color: black;
+ border: 2px solid red;
+
+}
+.main1{
+    color: aliceblue;
+}
+.button{
+   float: right;
+}
+.head{
+    margin-top: 20px;
+}
+.main1 a{
+    text-decoration: none;
+    color: antiquewhite;
+    
+}
+
+.main1 ul{
+    color: aliceblue;
+     display:inline-flex;
+     list-style-type:none;
+     justify-content:center;
+     margin-left: 200px;
+    
+
+     
+}
+.main1 li{
+    padding-right:10% ;
+    font-size:20px;
+   
+    
+}
+.main1 a:hover{
+      background-color: green; 
+      border-radius: 26px;
+      text-align: center;
+      
+      
+     
+}
+
+.head h1{      
+        margin-left: 350px;
+        margin-top: 30px;
+        font-size:70px;
+}
+.head h5{
+       margin-left:400px ;
+       margin-top:30PX ;
+}
+.head h4{
+      margin-left:400px ;
+      margin-top:30px;
+      background-color:black;
+      color: aliceblue;
+      border: 3px solid red;
+      width: 300px;
+      height: 50PX;
+      border-radius: 26PX;
+      text-align: center;
+      padding-top: 5px;
+
+     
+}
+.head h4:hover{
+
+    background-color: orangered;
+    border: solid;
+    border-color:white;
+}
+  
+.head h6{
+    margin-left:400px ;
+    margin-top:30px;
+}
+.child1{
+ margin-top:300px ;
+ 
+
+}
+.child2 {
+
+    margin-top:20px ;
+}
+.child3{
+    margin-top: 300px;
+}
+
+.child1 img{
+    float: inline-end;
+}
+
+.child3 img{
+             margin-top: 20px;
+}
+
+
+
+
+.about h2{
+    margin-left:500px ;
+    font-size:50px ;
+}
+.about h1{
+    margin-left:450px;
+    font-size:50px ;
+    margin-top: 30px;
+       
+}
+.about h4{
+    margin-left: 600px;
+    margin-top:30px;
+    
+}
+.about p{
+    margin-left:250px ;
+    margin-top:40px;
+    font-size:30px ;
+
+}
+.about{
+    background-color: black;
+    border: 2px solid red;
+
+}
+.about h1{
+    color: aliceblue;
+}
+.about h2{
+    color: aliceblue;
+}
+.about button{
+    background-color:black;
+    color: aliceblue;
+    border: 3px solid red;
+    width: 300px;
+    height: 50PX;
+    border-radius: 26PX;
+    margin-left: 40%;
+
+}
+
+.about button:hover{
+
+    background-color: orangered;
+    border: solid;
+    border-color:white;
+}
+.about p{
+    color: aliceblue;
+}
+  .about h4{
+    color: aliceblue;
+  } 
+  .images{
+    margin-left: 100px;
+    margin-right:100px ;
+    margin-top:80px;
+    margin-bottom:50px ;
+  }
+  .service{
+    background-color: black;
+    border: 2px solid red;
+
+    color:white;
+    width: 400px;
+    height:700px;
+
+    
+
+  }
+  .kid1{
+    background-color:violet;
+    padding-top:300px;
+   padding-left: 8%;
+   
+    
+  }
+  .kid2{
+    background-color:violet;
+    width: 555px;
+    padding-top:100px ;
+  }
+ 
+  
+  .service p{
+    padding:20px 30px;
+  }
+  .service h1{
+    padding:30px 30px;
+
+  }
+  .service h3{
+    padding:0% 30px ;
+  }
+  .jock{
+    background-color: black;
+    border: 2px solid red;
+
+    height: 800px;
+    color: aliceblue;
+    padding: 100px 30px;
+    
+    
+  }
+
+
+.sam {
+    padding: 2%;
+}
+.sam h1{
+    font-size:25px ;
+    margin-top: 40px;
+   
+    color:black ;
+}
+.sam img{
+    padding:20px;
+    
+
+
+
+}
+
+.sam2{
+    background-color:white;
+    height: 250px;
+}
+
+.sam2 div{
+    background-color:steelblue;
+    height: 170px;
+    margin-top:20px ;
+}
+.sam2 h1{
+    font-size:25px ;
+    margin-top: 40px;
+   
+    color:black ;
+}
+.sam2 img{
+    padding:20px;
+
+}
+
+.sam3{
+    background-color:white;
+    height: 250px;
+}
+
+.sam3 div{
+    background-color:orange;
+    height: 170px;
+    margin-top:20px ;
+}
+.sam3 h1{
+    font-size:25px ;
+    margin-top: 40px;
+   
+    color:black ;
+}
+.sam3 img{
+    padding:20px;
+
+}
+
+
+.sam4{
+    background-color:white;
+    height: 250px;
+}
+
+.sam4 div{
+    background-color:burlywood;
+    height: 170px;
+    margin-top:20px ;
+}
+.sam4 h1{
+    font-size:25px ;
+    margin-top: 40px;
+   
+    color:black ;
+}
+.sam4 img{
+    padding:20px;
+    
+}
+.page5{
+    background-color: lightgray;
+}
+.child6{
+ padding-left:40px;
+    
+}
+.child6 h1{
+
+    width: 100%;
+}
+.child6 h2{
+    margin-top: 30px;
+}
+.child7{
+    margin-top: 300px;
+    text-align: center;
+}
+.page5 i{
+   padding-left: 20px;
+}
+
+
